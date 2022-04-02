@@ -1,0 +1,89 @@
+h1 {
+    color: rgb(130, 172, 57);
+}
+
+.suspendis {
+    color: red;
+}
+
+.destacado {
+    color: darkorange
+}
+
+#subtitulo {
+    color: blue
+}
+
+.h2a {
+    color: red;
+}
+
+.h2em {
+    color: blue
+}
+
+.especial {
+    color: blueviolet;
+}
+
+caption {
+    color: blue;
+}
+
+th,
+td,
+tr {
+    border: 1.5px solid#000;
+}
+
+.especialFila1 {
+    color: darkorange
+}
+
+.especialColumna2 {
+    color: darkorange
+}
+
+.especialColumna1 {
+    color: darkorange
+}
+
+.especialFila2 {
+    color: red
+}
+
+.col1 {
+    color: red;
+}
+
+.col2 {
+    color: red
+}
+
+.tdBody {
+    color: rgb(23, 207, 23);
+}
+
+.tdBody2 {
+    color: rgb(23, 207, 23);
+}
+
+.strong {
+    color: darkorange
+}
+
+.curabitur {
+    color: rgb(23, 207, 23);
+}
+
+#adicional {
+    color: rgb(79, 148, 46);
+}
+
+#especial {
+    color: violet;
+}
+
+.donec {
+    color: rgb(27, 221, 27);
+}

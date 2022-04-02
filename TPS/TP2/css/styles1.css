@@ -1,0 +1,31 @@
+* {
+    font: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #555;
+}
+
+#parrafoPrimero {
+    color: #336699;
+}
+
+#emPrimero {
+    background: #FFFFCC;
+    padding: .1em;
+}
+
+a {
+    color: #CC3300;
+}
+
+.especial {
+    background: #FFCC99;
+    border: 1px solid #FF9900;
+    padding: .1em;
+}
+
+spam {
+    font-weight: bold;
+}
