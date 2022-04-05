@@ -1,0 +1,17 @@
+ .botones {
+     background-color: grey;
+     border: 1.5em;
+     border-collapse: collapse;
+     margin-top: 20px;
+     width: 32em;
+     height: 2em;
+ }
+ 
+ #anterior {
+     margin-right: 350px;
+     margin-top: 5px;
+ }
+ 
+ thead {
+     background-color: grey;
+ }
