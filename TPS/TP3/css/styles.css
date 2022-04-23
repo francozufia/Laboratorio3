@@ -51,6 +51,9 @@
             position: absolute;
             top: 550px
         }
+        .segundoContenido{
+            position: auto;
+        }
         
         .segundoContenido h6 {
             position: absolute;
@@ -164,3 +167,5 @@
         .twitter {
             margin-right: 15px;
         }
+        
+        
