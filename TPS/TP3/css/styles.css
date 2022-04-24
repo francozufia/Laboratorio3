@@ -1,14 +1,11 @@
-        body {
-            height: 1480px;
-        }
-        
+
         .logo {
             position: absolute;
             left: 25px;
             top: 25px;
         }
         
-        .botones {
+       .botones {
             float: right;
             position: relative;
             top: 20px;
@@ -19,153 +16,126 @@
             position: relative;
             top: 130px;
             left: 10px;
+            width: auto;
+        }
+        .img1 {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            left:800px;
+            bottom: 250px;  
+        }
+
+        #email {
             width: 500px;
         }
-        
-        #email {
-            width: 340px;
-        }
-        
-        .btn-primary {
-            position: absolute;
-            left: 370px;
-            bottom: 1px;
-        }
-        
-        .img1 {
-            position: absolute;
-            width: 400px;
-            height: 300;
-            left: 700px;
-            top: 0.5px
-        }
-        
-        .img2 {
-            position: absolute;
-            width: 450px;
-            left: 700px;
-            top: 500px
-        }
-        
-        #h3_2 {
-            position: absolute;
-            top: 550px
-        }
+           
         .segundoContenido{
-            position: auto;
+            position: relative;
+            width: 500px;
+            margin-left: 20px;
         }
-        
-        .segundoContenido h6 {
-            position: absolute;
-            top: 600px;
-            left: 20px;
-        }
-        
-        .segundoContenido h3 {
-            left: 20px;
-        }
-        
-        .segundoContenido .link-success {
-            position: absolute;
-            top: 710px;
-            left: 20px;
+        .img2 {
+            position: relative;
+            width: 450px;
+            left:800px;
+            bottom: 300px;
         }
         
         .form-floating {
             width: 350px;
-            position: absolute;
-            top: 580px;
-            left: 20px;
+            top: 30px;
             border: 1px solid;
             border-radius: 6px;
         }
         
         .form-floating #avatar {
-            position: absolute;
+           
             top: 130px;
             right: 290px;
             width: 40px;
             border-radius: 180px;
         }
-        
-        .form-floating p {
-            position: absolute;
-            left: 65px;
-            top: 125px
-        }
-        
         .tercerContenido {
-            background-color: rgba(137, 93, 240, 0.541);
-            position: absolute;
-            top: 1080px;
+            position: relative;
+            background-color: rgba(77, 42, 141, 0.603);
             width: 100%;
             height: 30%;
+            top: 1px;
         }
-        
         .h4_3 {
+            position: relative;
             color: white;
-            position: absolute;
             left: 20px;
-            top: 30px
+            top:15px
         }
-        
-        .h6_3 {
+        .h6_3{
+            position: relative;
+            left: 20px;
+            top:15px;
             color: white;
-            position: absolute;
-            top: 70px;
-            left: 20px;
         }
-        
-        #email_3 {
-            width: 340px;
-            position: absolute;
-            left: 600px;
+
+        #email_3{
+            position: relative;
+            left: 20px;
+            width: 330px;
+            top:15px;
+        }
+        #boton3{
+            position: relative;
+            width: 170px;
+            left: 350px;
+            bottom: 40px;
+        }
+
+        .piePagina{
+            background-color: rgb(2, 1, 65);
+            position: relative;
+        }
+
+        .logoPie{
+            position: relative;
+            top: 30px;
+            left: 25px;
+        }
+        .listaContactos{
+            position: relative;
             top: 40px;
-        }
-        
-        #boton3 {
-            position: absolute;
-            left: 600px;
-            bottom: 60px;
-        }
-        
-        .logoPie {
-            position: absolute;
-            top: 1300px;
-            width: 100px;
-            left: 30px;
-        }
-        
-        .listaContactos {
-            position: absolute;
-            top: 1350px;
             list-style: none;
+            color: white;
+            width: 300px;
         }
-        
-        .links {
-            position: absolute;
-            top: 1280px;
-            left: 600px;
+       .tabla{
+           position: relative;
+           left: 500px;
+           bottom: 30px;
         }
-        
-        .columna {
-            /*deje unos bordes muy anchos para darle separacion a los links */
-            border-left: 100px solid white;
-            border-top: 10px solid white;
+        .link-info{
+            margin: 100px;  
         }
-        
-        .icons {
-            position: absolute;
-            top: 1320px;
-            left: 1000px;
+        .icons{
+            position: relative;
+            left: 1050px;
+            bottom:100px;
         }
-        
-        .instagram {
-            margin-right: 15px;
+        .instagram{
+            margin: 20px;
         }
-        
-        .twitter {
-            margin-right: 15px;
+      
+        .twitter{
+            margin: 20px;
         }
+        .facebook{
+            margin: 20px;
+        }
+        .icon{
+            background-color: white;
+            border-radius: 180px;
+            width: 20px;
+        }
+
+
         
-        
+      
+      

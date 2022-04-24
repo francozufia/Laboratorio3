@@ -14,29 +14,33 @@
 <body>
     <header>
         <img src="/imagenes/logo.svg" class="logo">
-        <div class="botones">
-            <button type="button" class="btn btn-link"> Features</button>
+        <div class="botones clearfix" >
+            <button type="button" class="btn btn-link" class="float-right"> Features</button>
             <button type="button" class="btn btn-link">Team</button>
             <button type="button" class="btn btn-link">Sign In</button>
         </div>
     </header>
     <div class="primerContenido">
-        <h3>All your files in one secure <br> location, accessible anywhere.</h3>
-        <h6> Fylo stores your most important files in one secure location. Access <br> them wherever you need, share and collaborate with friends, family,<br> and co-workers.</h6>
+        <h3 style="width: 350px;"> All your files in one secure <br> location, accessible anywhere.</h3>
+        <h6  style="width: 500px;"> Fylo stores your most important files in one secure location. Access <br> them wherever you need, share and collaborate with friends, family,<br> and co-workers.</h6>
+         
         <div class="input-group mb-3" id="email">
             <span class="input-group-text" id="basic-addon1">@</span>
             <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+            <button type="button" class="btn btn-primary">Get Started</button> 
         </div>
-        <img src="/imagenes/illustration-1.svg " class="img1">
-        <button type="button" class="btn btn-primary">Get Started</button>
+        <img src="/imagenes/illustration-1.svg " class="img1"> 
+        
     </div>
+
     <div class="segundoContenido">
-        <img src="/imagenes/illustration-2.svg" class="img2">
-        <h3 id="h3_2">Stay productive wherever you are</h3>
-        <h6> Never let location be an issue when accessing your files. Fylo has you <br> covered for all of your file storage needs. <br><br> Securely share files and folders with friends, family and colleagues for <br> live collaboration. No email attachments
+       
+        <h3 id="h3_2" style="width: 360px;">Stay productive wherever you are</h3>
+        <h6 style="width:500px"> Never let location be an issue when accessing your files. Fylo has you <br> covered for all of your file storage needs. <br><br> Securely share files and folders with friends, family and colleagues for <br> live collaboration. No email attachments
             required!
         </h6>
         <a href="#" class="link-success">See how Fylo works</a>
+        
         <div class="form-floating">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 180px"></textarea>
             <label for="floatingTextarea2">Fylo has improved our team productivity by <br> an order of magnitude. Since 
@@ -44,8 +48,11 @@
                 <img src="/imagenes/avatar-testimonial.jpg" id="avatar">
                 <p><strong>Kyle Burton</strong></h6> <br> Founder & CEO, Huddle</p>
             </label>
+            
         </div>
     </div>
+    <img src="/imagenes/illustration-2.svg" class="img2">
+
     <div class="tercerContenido">
         <h4 class="h4_3">Get early access today</h4>
         <h6 class="h6_3"> It only takes a minute to sign up and our free starter tier is <br> extremely generous. If you have any questions, our support team <br> would be happy to help you.</h6>
@@ -55,35 +62,37 @@
         </div>
         <button type="button" class="btn btn-primary" id="boton3">Get Started for free</button>
     </div>
-    <div class="container-fluid" style = "width:100%;height:50px;position: static;background-color: aqua;top:1300px">
+
+
+    <div class = "piePagina">
         <img src="/imagenes/logo.svg" class="logoPie">
         <ul class="listaContactos">
-            <li> <img src="/imagenes/celular.svg"> Phone:+1-543-123-4567</li>
-            <li><img src="/imagenes/mail.svg"> examples@fylo.com</li>
+            <li> <img src="/imagenes/celular.svg" style="background-color:white"> Phone:+1-543-123-4567</li>
+            <li><img src="/imagenes/mail.svg" style="background-color:white"> examples@fylo.com</li>
         </ul>
-            <div class="links">
-                <table>
+            <div id ="links">
+                <table class = "tabla">
                     <tr>
-                        <td class="columna"><a href="#" class="link-info">About us</a></td>
-                        <td class="columna"><a href="#" class="link-info">Contact us</a></td>
+                        <td class="columna"><a href="#" class="link-info" style="color:white">About us</a></td>
+                        <td class="columna"><a href="#" class="link-info" style="color:white">Contact us</a></td>
                     </tr>
                     <tr>
-                        <td class="columna"><a href="#" class="link-info">Jobs</a></td>
-                        <td class="columna"><a href="#" class="link-info">Terms</a></td>
+                        <td class="columna"><a href="#" class="link-info" style="color:white">Jobs</a></td>
+                        <td class="columna"><a href="#" class="link-info" style="color:white">Terms</a></td>
                     </tr>
                     <tr>
-                        <td class="columna"><a href="#" class="link-info">Press</a></td>
-                        <td class="columna"><a href="#" class="link-info">Privacy</a></td>
+                        <td class="columna"><a href="#" class="link-info" style="color:white">Press</a></td>
+                        <td class="columna"><a href="#" class="link-info"style="color:white">Privacy</a></td>
                     </tr>
                     <tr>
-                        <td class="columna"><a href="#" class="link-info">Blog</a></td>
+                        <td class="columna"><a href="#" class="link-info" style="color:white">Blog</a></td>
                     </tr>
                 </table>
             </div>
             <div class="icons">
-                <a href="https://www.instagram.com/" target="_blank" class="instagram"><img src="/imagenes/instagram.svg"></a>
-                <a href="https://twitter.com/" target="_blank" class="twitter"><img src="/imagenes/twitter.svg"></a>
-                <a href="https://www.facebook.com/" target="_blank" class="facebook"><img src="/imagenes/facebook.svg"></a>
+                <a href="https://www.instagram.com/" target="_blank" class="instagram"><img src="/imagenes/instagram.svg" class="icon"></a>
+                <a href="https://twitter.com/" target="_blank" class="twitter"><img src="/imagenes/twitter.svg" class="icon"></a>
+                <a href="https://www.facebook.com/" target="_blank" class="facebook"><img src="/imagenes/facebook.svg" class="icon"></a>
             </div>
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"></a>
     </div>
